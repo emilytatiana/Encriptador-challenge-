@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang= "es">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador challenge</title>
+        <link rel="stylesheet" href="challenge.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=
+        Oswald:wght@200&display=swap" rel="stylesheet">"
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Logo.png" alt="Logo">
+        </header>
+        <main>
+            <section class="contenido1">
+                <div class="contenido-caja">
+                  <textarea placeholder="Ingrese el texto aquí"
+                   class="cajatexto"> </textarea>
+                </div>
+                <div class="alerta">
+                    <img src="alerta.png" alt="alerta">
+                    <p class="indicaciones">Sólo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="contenido-botones">
+                    <input type="button" value="Encriptar" class="boton-encriptar">
+                    <input type="button" value="Desencriptar" class="boton-desencriptar">
+                </div>
+            </section>
+            <section class="contenido2">
+                <div class="muneco">
+                    <img src="Muñeco.png" alt="imagen muneco">
+                </div>
+                <div class="contenido-parrafo">
+                    <h3>Ningún mensaje fue <br> encontrado </h3>
+                    <p> Ingresa el texto que desees encriptar <br> o desencriptar.</p>
+                </div>
+                <div class="contenido-copiar">
+                    <input type="button" value="Copiar" class="boton-copiar">
+                </div>
+                <div class="contenido-resultado">
+                    <p class="texto-resultado"></p>
+                </div>
+            </section>
+        </main>  
+    <script src="script.js"></script>
+        
+    </body>
+    
+</html>
